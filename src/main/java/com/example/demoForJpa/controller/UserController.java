@@ -45,6 +45,6 @@ import com.example.demoForJpa.repo.UserRepo;
 			        }
 			    }
 
-			    return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Invalid username or password");
+			    return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Invalid username or password: try again");
 			}
 }
